@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ValueReferenceDemo1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e11c0b2e-155b-47a5-b19c-fbe70d54c407</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ec1adca8-7394-415a-9366-afe72838ef8f</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>
