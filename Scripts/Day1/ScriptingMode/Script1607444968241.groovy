@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.delay(7)
+not_run: WebUI.delay(7)
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_tx
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.verifyTextPresent('Welcome123', false)
+not_run: WebUI.verifyTextPresent('Welcome', false)
 
 WebUI.closeBrowser()
 
