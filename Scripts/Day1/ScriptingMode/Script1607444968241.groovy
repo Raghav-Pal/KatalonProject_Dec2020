@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_tx
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
 
-not_run: WebUI.verifyTextPresent('Welcome', false)
+not_run: WebUI.verifyTextPresent('Welcome123', false)
 
 WebUI.closeBrowser()
 
