@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Book Appointment</name>
    <tag></tag>
-   <elementGuidId>4227ffe5-a302-43ab-9c61-c36ae244ace9</elementGuidId>
+   <elementGuidId>c0057454-ddf4-4b2d-b619-da3b6bae394e</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#btn-book-appointment</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='btn-book-appointment']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#btn-book-appointment</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

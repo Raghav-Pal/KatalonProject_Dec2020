@@ -3,15 +3,15 @@
    <description></description>
    <name>textarea_Comment_comment</name>
    <tag></tag>
-   <elementGuidId>c2ac2b4c-b2e2-4884-9dc9-4f8291548467</elementGuidId>
+   <elementGuidId>113dc03f-48a7-405a-a9ce-3a385cb52c9f</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#txt_comment</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//textarea[@id='txt_comment']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#txt_comment</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

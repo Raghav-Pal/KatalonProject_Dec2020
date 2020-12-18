@@ -20,9 +20,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Forgot your password'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/a_Forgot your password'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_OrangeHRM Username_button'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/input_OrangeHRM Username_button'))
 
 WebUI.closeBrowser()
 

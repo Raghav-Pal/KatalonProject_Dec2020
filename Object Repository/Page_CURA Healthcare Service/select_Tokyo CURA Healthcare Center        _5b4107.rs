@@ -3,15 +3,15 @@
    <description></description>
    <name>select_Tokyo CURA Healthcare Center        _5b4107</name>
    <tag></tag>
-   <elementGuidId>8bef9b22-73d1-48d2-838c-738f56d5def4</elementGuidId>
+   <elementGuidId>9983ac3f-f56d-42be-bc2d-201f43544448</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#combo_facility</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//select[@id='combo_facility']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#combo_facility</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

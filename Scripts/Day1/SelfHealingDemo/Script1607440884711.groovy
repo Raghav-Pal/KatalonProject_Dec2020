@@ -20,14 +20,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://automationstepbystep.blogspot.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_Automation Step by Step/input_Email_emailOne'), 'abc@def.com')
+WebUI.setText(findTestObject('WEB/Page_Automation Step by Step/input_Email_emailOne'), 'abc@def.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Automation Step by Step/input_Password_psw'), '4nvbrPglk7k=')
+WebUI.setEncryptedText(findTestObject('WEB/Page_Automation Step by Step/input_Password_psw'), '4nvbrPglk7k=')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Automation Step by Step/input_Repeat Password_psw-repeat'), 
+WebUI.setEncryptedText(findTestObject('WEB/Page_Automation Step by Step/input_Repeat Password_psw-repeat'), 
     '4nvbrPglk7k=')
 
-WebUI.click(findTestObject('Object Repository/Page_Automation Step by Step/button_Sign Up'))
+WebUI.click(findTestObject('WEB/Page_Automation Step by Step/button_Sign Up'))
 
 WebUI.closeBrowser()
 

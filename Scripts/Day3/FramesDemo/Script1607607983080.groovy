@@ -20,13 +20,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.selenium.dev/selenium/docs/api/java/index.html?overview-summary.html')
 
-WebUI.click(findTestObject('Object Repository/Page_Overview/a_org.openqa.selenium'))
+WebUI.click(findTestObject('WEB/Page_Overview/a_org.openqa.selenium'))
 
-WebUI.click(findTestObject('Object Repository/Page_Overview/span_Capabilities'))
+WebUI.click(findTestObject('WEB/Page_Overview/span_Capabilities'))
 
-WebUI.click(findTestObject('Object Repository/Page_Capabilities/a_Instance Methods'))
+WebUI.click(findTestObject('WEB/Page_Capabilities/a_Instance Methods'))
 
-WebUI.click(findTestObject('Object Repository/Page_Capabilities/a_org.openqa.selenium.chrome'))
+WebUI.click(findTestObject('WEB/Page_Capabilities/a_org.openqa.selenium.chrome'))
 
 WebUI.closeBrowser()
 

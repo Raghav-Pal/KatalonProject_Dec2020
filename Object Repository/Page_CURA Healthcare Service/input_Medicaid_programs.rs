@@ -3,15 +3,15 @@
    <description></description>
    <name>input_Medicaid_programs</name>
    <tag></tag>
-   <elementGuidId>b146b50c-25fb-48ec-b36b-b10d44fc0d8d</elementGuidId>
+   <elementGuidId>99fcb0d0-3f93-4277-8cb0-09d8998248ce</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#radio_program_medicaid</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='radio_program_medicaid']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#radio_program_medicaid</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

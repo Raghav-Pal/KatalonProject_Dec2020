@@ -23,8 +23,8 @@ import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
 class TestListener1 {
-	
-	/*@BeforeTestCase
+	/*
+	@BeforeTestCase
 	def beforeTestCase(){
 		println "   I am inside beforeTestCase "
 	}

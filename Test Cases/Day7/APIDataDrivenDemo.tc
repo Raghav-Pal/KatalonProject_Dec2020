@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>APIDataDrivenDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6bfa208a-8d9e-4dfc-a3a7-adcce5571911</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a2994de5-86d8-4484-a6c1-84e85a868850</id>
+      <masked>false</masked>
+      <name>Number1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e224b80d-ee16-4ae3-9327-6fe529d2598b</id>
+      <masked>false</masked>
+      <name>Number2</name>
+   </variable>
+</TestCaseEntity>

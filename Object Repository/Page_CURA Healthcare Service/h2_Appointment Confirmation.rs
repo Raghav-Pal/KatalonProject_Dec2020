@@ -3,15 +3,15 @@
    <description></description>
    <name>h2_Appointment Confirmation</name>
    <tag></tag>
-   <elementGuidId>84e1ec76-1edd-4815-99b8-6ea6b8a02a23</elementGuidId>
+   <elementGuidId>d7c44734-8bdf-4df7-8ef1-ca65bc1822a8</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>h2</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//section[@id='summary']/div/div/div/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

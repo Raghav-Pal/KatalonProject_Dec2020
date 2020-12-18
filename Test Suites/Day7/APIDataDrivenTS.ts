@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>APIDataDrivenTS</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>7</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>710f09e5-39df-49c7-ac8e-c2e76b87aa2c</testSuiteGuid>
+   <testCaseLink>
+      <guid>a8598f69-c6d7-42dd-bc72-301ab3b1f6e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Day7/APIDataDrivenDemo</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4695f2e0-d51f-4dd5-be14-d59103dfce0d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/APITestData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4695f2e0-d51f-4dd5-be14-d59103dfce0d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Number1</value>
+         <variableId>a2994de5-86d8-4484-a6c1-84e85a868850</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4695f2e0-d51f-4dd5-be14-d59103dfce0d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Number2</value>
+         <variableId>e224b80d-ee16-4ae3-9327-6fe529d2598b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

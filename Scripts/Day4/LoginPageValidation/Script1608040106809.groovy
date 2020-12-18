@@ -20,19 +20,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 5)
+WebUI.verifyElementPresent(findTestObject('WEB/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), 5)
+WebUI.verifyElementPresent(findTestObject('WEB/Page_OrangeHRM/input_Username_txtPassword'), 5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'), 5)
+WebUI.verifyElementPresent(findTestObject('WEB/Page_OrangeHRM/input_Password_Submit'), 5)
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+WebUI.setText(findTestObject('WEB/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), '4nvbrPglk7k=')
+WebUI.setEncryptedText(findTestObject('WEB/Page_OrangeHRM/input_Username_txtPassword'), '4nvbrPglk7k=')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
+WebUI.click(findTestObject('WEB/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_OrangeHRM/span_Invalid credentials'), 'Invalid credentials')
+WebUI.verifyElementText(findTestObject('WEB/Page_OrangeHRM/span_Invalid credentials'), 'Invalid credentials')
 
 WebUI.closeBrowser()
 
